@@ -5,8 +5,8 @@
 
 @media only screen and (max-width:992px) {}
 
-@media only screen and (max-width:768px){
-    .sidebar{
+@media only screen and (max-width:768px) {
+    .sidebar {
         display: none;
     }
 
@@ -19,18 +19,44 @@
         /* padding-left: 30px; */
     }
 
-    .outlet_header p , .parent h5, .sendMsg input, .sendMsg input::placeholder, .radioQuestion label  {
+    .outlet_header p,
+    .parent h5,
+    .radioQuestion label,
+    .myChat
+    {
         font-size: 14px;
     }
 
-    .new_chat p, .more_ques {
+    .savedMsg p,
+    .more_ques {
         padding: 20px !important;
         font-size: 14px;
+    }
+
+    .singleChat {
+        padding: 33px 25px;
+    }
+
+    .likeDislike {
+        padding: 5px 10px;
+    }
+
+    .clearHistory a {
+        font-size: 12px;
+    }
+
+    .myChat,
+    .answer p, .question p,.sendMsg input,
+    .sendMsg input::placeholder,.answer
+    ol li {
+        font-size: 12px;
     }
 }
 
 
-@media only screen and (max-width:600px){}
+
+
+@media only screen and (max-width:600px) {}
 
 
 @media only screen and (max-width:425px) {}
