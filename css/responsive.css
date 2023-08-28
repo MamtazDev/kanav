@@ -48,7 +48,7 @@
     .myChat,
     .answer p, .question p,.sendMsg input,
     .sendMsg input::placeholder,.answer
-    ol li {
+    ol li, .historyBox p, .historyBox p{
         font-size: 12px;
     }
 }

@@ -9,15 +9,15 @@
     <link rel="shortcut icon" href="./assets/round-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
-    <title>NewChat</title>
+    <title>Work Area</title>
 </head>
 
 <body>
     <main>
         <div class="d-flex w-100">
             <div>
-                <div class="sidebar h-100"><img class="logo" src="./assets/sidebar-logo.png" alt=""><button class="sky_btn"
-                        style="margin-bottom: 20px;"><span>+</span> New Chat</button><span>Today</span>
+                <div class="sidebar h-100"><img class="logo" src="./assets/sidebar-logo.png" alt=""><button
+                        class="sky_btn" style="margin-bottom: 20px;"><span>+</span> New Chat</button><span>Today</span>
                     <div>
                         <div class="chat_list"><img src="/src/assets/chaticon.png" alt="">
                             <p>Chatbot definition...</p><img src="/src/assets/dots.svg" alt="">
@@ -86,55 +86,107 @@
                     </header>
                     <div class="outlet_body">
                         <div class="container">
-                            <div class="mx-auto" style="max-width: 862px;">
-                                <div class="outlet_header mb_40">
-                                    <img src="./assets/round-logo.png" alt="Logo">
-                                    <div>
-                                        <h5>I’m Kana,</h5>
-                                        <p>your companion here to unravel your emotions, free from judgment. While I'm
-                                            not
-                                            flawless, with every conversation, I'm evolving into your better
-                                            understanding
-                                            ally”</p>
+                            <div class="mx-auto">
+                                <div
+                                    class="outlet_header d-flex flex-column flex-md-row justify-content-between align-items-center gap-4 mb_40 ">
+                                    <div class="">
+                                        <h4>Work Area</h4>
+                                        <span>01:56 am at 13 March 2022</span>
+                                    </div>
+                                    <div
+                                        class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-4">
+                                        <form class="search d-flex justify-content-between align-items-center">
+                                            <input type="text" class="w-100" placeholder="Search">
+                                            <button><img src="./assets/search.png" alt="Search"></button>
+                                        </form>
+                                        <button class="journalAdd">
+                                            <img src="./assets/add.png" alt="Add">
+                                            Add Journals
+                                        </button>
+                                        <div class="filter">
+                                            <button>
+                                                <img class="img-fluid" src="./assets/filter.png" alt="">
+                                            </button>
+                                            <div class="filterChild d-flex flex-column gap-2 w-100">
+                                                <div class="filterInner">
+                                                    <input type="radio" value="motivation" checked>
+                                                    <label>Motivation</label>
+                                                </div>
+                                                <div class="filterInner">
+                                                    <input type="radio" value="anxious">
+                                                    <label>Anxious</label>
+                                                </div>
+                                                <div class="filterInner">
+                                                    <input type="radio" value="sleep">
+                                                    <label>Sleep</label>
+                                                </div>
+                                                <div class="filterInner">
+                                                    <input type="radio" value="anxious">
+                                                    <label>Anxious</label>
+                                                </div>
+                                                <div class="filterInner">
+                                                    <input type="radio" value="lonely">
+                                                    <label>Lonely</label>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="new_chat mb_70">
-                                    <form action="">
-                                        <div class="sendMsg d-flex justify-content-between align-items-center mb-4">
-                                            <input type="text" placeholder="Type Here....">
-                                            <button>
-                                                <img src="./assets/send.png" alt="send">
-                                            </button>
+                                <div class="workHistory mb_70">
+                                    <div class="d-flex flex-column gap-3">
+                                        <h3>Today</h3>
+                                        <div>
+                                            <div class="historyBox">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <h4 class="d-inline-block">
+                                                        What are effective ways to support a friend showing signs of
+                                                        emotional distress?
+                                                    </h4>
+
+                                                    <div class="del">
+                                                        <button>
+                                                            <img src="./assets/editbtn.png" alt="Edit Delete">
+                                                        </button>
+                                                        <div class="editDel d-flex flex-column gap-4">
+                                                            <button class="d-flex align-items-center gap-3"><img src="./assets/edit.png" alt="Edit">Edit
+                                                            </button>
+                                                            <button class="d-flex align-items-center gap-3"><img src="./assets/carbon_view.png" alt="View">View
+                                                            </button>
+                                                            <button class="d-flex align-items-center gap-3 text-danger"><img src="./assets/delete.png" alt="Delete">Delete
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>
+                                                    Distinguishing between normal feelings of loneliness and signs that
+                                                    indicate a deeper emotional issue can be challenging, but there are
+                                                    some key factors and guidelines you can consider. It's important to
+                                                    note that I'm not a substitute for professional advice, so if you or
+                                                    someone you know is struggling, it's always best to consult a mental
+                                                    health professional for personalized guidance.
+                                                </p>
+                                                <div
+                                                    class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-4 mt-2">
+                                                    <span>23 July, 2023 at 7:30 PM</span>
+                                                    <div
+                                                        class="anxSleepbtn d-flex justify-content-center gap-2 align-items-center">
+                                                        <button>anxiety</button>
+                                                        <button>Sleep</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                         </div>
-                                        <div class="savedMsg d-flex mx-auto flex-column align-items-center gap-3" style="max-width: 378px;">
-                                            <p>
-                                                How do I handle a bully?
-                                            </p>
-                                            <p>
-                                                How can I do self-assessment
-                                                for depressoion?
-                                            </p>
-                                            <p>
-                                                I think i am addicted to socail media,
-                                                what should i do to cut that down?
-                                            </p>
-                                            <p>
-                                                I am constantly let down by my firend,
-                                                is there something wrong with me?
-                                            </p>
-                                            <p>
-                                                What’s the best way to handle stress
-                                                on a daily basis?
-                                            </p>
-                                        </div>
-                                    </form>
+                                    </div>
                                 </div>
+
                             </div>
-                            
                         </div>
+
                     </div>
                 </div>
             </div>
+        </div>
         </div>
 
 

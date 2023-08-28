@@ -19,10 +19,12 @@ a {
     text-decoration: none;
 }
 
-button {
+button,
+input {
     border: none;
     background: transparent;
 }
+
 
 input[type="radio" i]:focus-visible {
     outline-offset: 2px;
@@ -478,7 +480,7 @@ header a .active {
     background: transparent;
 }
 
-.radioQuestion input[type='radio']:after {
+.radioQuestion input[type='radio']::after {
     width: 18px;
     height: 18px;
     border-radius: 50%;
@@ -492,7 +494,7 @@ header a .active {
     border: 4px solid #d1e8f2;
 }
 
-.radioQuestion input[type='radio']:checked:after {
+.radioQuestion input[type='radio']:checked::after {
     width: 18px;
     height: 18px;
     border-radius: 50%;
@@ -550,7 +552,8 @@ header a .active {
 }
 
 
-.answer p,.answer ol li {
+.answer p,
+.answer ol li {
     color: #191D31;
     font-size: 16px;
     font-weight: 500;
@@ -601,3 +604,195 @@ header a .active {
 
 
 /* Single chat End */
+
+
+/* Work Area start */
+.outlet_header h4 {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.88px;
+}
+
+.outlet_header span {
+    color: var(--icone, #5C5F62);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.64px;
+}
+
+.search {
+    border-radius: 12px;
+    border: 1px solid #DEDEDE;
+    padding: 12px 24px;
+}
+
+.journalAdd {
+    padding: 12px 63px;
+    color: #0084FF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    border-radius: 12px;
+    border: 1px solid #43B2E5;
+    transition: 0.3s ease-in-out;
+}
+
+.filter {
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+
+.filterChild {
+    position: absolute;
+    top: 45px;
+    right: 50%;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    padding: 16px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in;
+    width: 180px !important;
+}
+
+
+.filter:hover .filterChild {
+    visibility: visible;
+    opacity: 1;
+}
+
+.filter:hover {
+    opacity: .8;
+}
+
+.filterInner label {
+    color: #232323;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+/* .filterInner input[type='radio']::after {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    top: -2px;
+    left: -1px;
+    position: absolute;
+    background-color: #FFF;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 4px solid #d1e8f2;
+}
+
+
+.filterInner input[type='radio']:checked::after {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    top: -2px;
+    left: -1px;
+    position: absolute;
+    background-color: #FFF;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 4px solid #d1e8f2;
+} */
+
+.historyBox {
+    padding: 20px 24px;
+    border-radius: 7px;
+    border: 1px solid #DEDEDE;
+    background: #FDFDFD;
+}
+
+.historyBox h4 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 130.523%;
+    letter-spacing: 0.56px;
+}
+
+.historyBox p {
+    color: #191D31;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.historyBox span {
+    color: #2D2F35;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 130.523%;
+}
+
+.anxSleepbtn button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    background: #F6F6F6;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 130.523%;
+    transition: 0.3s ease-in-out;
+}
+
+.anxSleepbtn button:hover {
+    opacity: .8;
+}
+
+.workHistory h3 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 130.523%;
+    letter-spacing: 0.56px;
+}
+
+.del {
+    position: relative;
+}
+
+
+
+.editDel {
+    position: absolute;
+    top: 25px;
+    right: 10%;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.del:hover .editDel {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.editDel button {
+    color: #121212;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    transition: 0.3s ease-in-out;
+}
+
+.editDel button:hover{
+    color: #0084FF;
+}
+
+/* Work Area End */
