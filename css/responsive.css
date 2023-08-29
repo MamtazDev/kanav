@@ -1,18 +1,26 @@
 @media only screen and (min-width:1440px) {}
 
 
-@media only screen and (max-width:1024px) {}
-
-@media only screen and (max-width:992px) {}
-
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:1024px) {
     .sidebar {
         display: none;
     }
+}
 
+@media only screen and (max-width:992px) {
+    
     .child {
         padding: 5px;
         right: 10%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+  
+
+    .child {
+        padding: 5px;
+        right: 20%;
     }
 
     .outlet_body {
@@ -54,15 +62,21 @@
     .historyBox p {
         font-size: 12px;
     }
+    .journalAdd {
+        width: 100%;
+    }
 }
 
 
 
 
 @media only screen and (max-width:600px) {
-    .journalAdd {
-        width: 100%;
+
+    .filterChild {
+        right: -50px;
     }
+
+
 }
 
 
