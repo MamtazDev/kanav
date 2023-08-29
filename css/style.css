@@ -690,7 +690,11 @@ header a .active {
     padding-left: 10px;
 }
 
-/* .filterInner input[type='radio']::after {
+.filterInner input{
+    position: relative;
+}
+
+.filterInner input[type='radio']::after {
     width: 18px;
     height: 18px;
     border-radius: 50%;
@@ -705,19 +709,19 @@ header a .active {
 }
 
 
-.filterInner input[type='radio']:checked::after {
+.filterInner input[type='radio']:checked:after {
+    position: absolute;
     width: 18px;
     height: 18px;
     border-radius: 50%;
     top: -2px;
     left: -1px;
-    position: absolute;
-    background-color: #FFF;
+    background-color: #43B2E5;;
     content: '';
     display: inline-block;
     visibility: visible;
     border: 4px solid #d1e8f2;
-} */
+}
 
 .historyBox {
     padding: 20px 24px;
