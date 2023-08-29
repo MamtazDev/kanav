@@ -640,6 +640,19 @@ header a .active {
     transition: 0.3s ease-in-out;
 }
 
+.journalActive {
+    padding: 12px 63px;
+    border-radius: 12px;
+    border: 1px solid #43B2E5;
+    background: #43B2E5;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+}
+
 .filter {
     transition: 0.3s ease-in-out;
     position: relative;
@@ -791,8 +804,90 @@ header a .active {
     transition: 0.3s ease-in-out;
 }
 
-.editDel button:hover{
+.editDel button:hover {
     color: #0084FF;
 }
 
 /* Work Area End */
+
+/* Add Journal Start */
+
+.journalForm {
+    padding: 32px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+}
+
+.journalForm h6 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.journalForm label {
+    display: block;
+    color: #ACB5BB;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -0.28px;
+}
+
+.journalForm input,
+.journalForm textarea {
+    padding: 12px 16px;
+    color: #1A1C1E;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: -0.24px;
+    border-radius: 8px;
+    border: 1px solid #DCE4E8;
+    background: #FFF;
+    width: 100%;
+}
+
+.journalForm input::placeholder,
+.journalForm textarea::placeholder {
+    color: #1A1C1E;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: -0.24px;
+}
+
+.journalForm button {
+    padding: 8px 24px;
+    border-radius: 8px;
+    background: #43B2E5;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.28px;
+}
+
+.journalForm button:hover {
+    opacity: .8;
+}
+
+.upload__inner {
+    border-radius: 3px;
+    border: 1px dashed #C9C9C9;
+    padding: 48px 24px;
+}
+
+.upload__inner input {
+    border: none;
+}
+
+.upload__inner p {
+    color: #7C7C7C;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 106%;
+    text-transform: uppercase;
+}
+
+
+/* Add Journal End */

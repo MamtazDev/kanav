@@ -22,8 +22,7 @@
     .outlet_header p,
     .parent h5,
     .radioQuestion label,
-    .myChat
-    {
+    .myChat {
         font-size: 14px;
     }
 
@@ -46,9 +45,13 @@
     }
 
     .myChat,
-    .answer p, .question p,.sendMsg input,
-    .sendMsg input::placeholder,.answer
-    ol li, .historyBox p, .historyBox p{
+    .answer p,
+    .question p,
+    .sendMsg input,
+    .sendMsg input::placeholder,
+    .answer ol li,
+    .historyBox p,
+    .historyBox p {
         font-size: 12px;
     }
 }
@@ -56,7 +59,11 @@
 
 
 
-@media only screen and (max-width:600px) {}
+@media only screen and (max-width:600px) {
+    .journalAdd {
+        width: 100%;
+    }
+}
 
 
 @media only screen and (max-width:425px) {}
